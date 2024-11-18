@@ -12,7 +12,7 @@ import java.net.Socket;
  * @author pankaj
  *
  */
-public class SocketServerExample {
+public class SocketServer {
 
     //static ServerSocket variable
     private static ServerSocket server;

@@ -12,7 +12,7 @@ import java.net.UnknownHostException;
  * @author pankaj
  *
  */
-public class SocketClientExample {
+public class SocketClient extends Thread {
 
     public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException, InterruptedException{
         //get the localhost IP address, if server is running on some other IP, you need to use that
